@@ -66,7 +66,7 @@ export default function Hero() {
         className={`object-cover object-center z-0 transition-opacity duration-700 ${fade ? 'opacity-100' : 'opacity-0'}`}
       />
 
-      <div className="absolute inset-0 bg-black/60 z-10 transition-opacity duration-700" />
+      <div className="absolute inset-0 bg-black/40 z-10 transition-opacity duration-700" />
 
       <div className={`absolute inset-0 z-20 flex flex-col items-center justify-center text-center px-6 transition-opacity duration-700 ${fade ? 'opacity-100' : 'opacity-0'}`}>
         <div className="max-w-5xl text-white space-y-6">
